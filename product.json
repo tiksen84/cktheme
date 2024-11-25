@@ -1,0 +1,626 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "6cdd0e8c-9b5c-4a78-b486-49e904a458b5": {
+          "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_NqzwA6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>20% Off All Orders! Use Code: JULY</strong></p>",
+            "text_size": "text-size--regular",
+            "text_style": "text-color--primary",
+            "text_color": "#48539b",
+            "text_transform": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "heading": "",
+            "variants_style": "radio",
+            "color_swatches": false,
+            "style": "none",
+            "unavailable_variants": "show"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "show_price": false,
+            "style": "outline"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "product_description_truncated": "full"
+          }
+        },
+        "610a0ffc-99bf-42e3-a0c7-6e4bd7f5ee31": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifics",
+            "content": "<p>Dimensions per Tile: 24.8 x 24.8inches</p><p>Thickness: 0.47 inches</p><p>Crafted from <em>Non-toxic </em>Foam</p><p>BabySafe Design</p><p>Expandable Design - you can add on to your play mat as time goes. </p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "collapsible_tab_CazVBz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety & Non-Toxic Assurance",
+            "content": "<p>At Copenhagen Kid, your child’s safety is our top priority. Our foam play mats are crafted from premium, non-toxic materials and tested to meet the highest global safety standards.</p><p><strong>Key Safety Features:</strong></p><ul><li><strong>Lead-Free, Formamide-Free, Formaldehyde-Free:</strong> Certified free from harmful chemicals, ensuring safe, everyday use.</li></ul><p><strong>Certified to Top Safety Standards:</strong></p><ul><li><strong>EN71</strong> (European Toy Safety)</li><li><strong>REACH</strong> (EU Chemical Safety)</li><li><strong>ASTM F963</strong> (U.S. Toy Safety)</li><li><strong>CA71</strong> (California Child Safety)</li></ul><p>Learn more and view our testing reports <a href=\"https://copenhagenkid-coabfyeyo2d.gorgias.help/en-US#article-828368\" title=\"https://copenhagenkid-coabfyeyo2d.gorgias.help/en-US#article-828368\">here</a>. Enjoy peace of mind knowing our mats are safe for your little ones.</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "fbd2f3ee-9310-45ed-93a2-5f3241591b16": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety",
+            "content": "<p>Always ensure adult supervision when using this mat to prevent any potential hazards.</p><p>Before each use, carefully inspect the product for any signs of damage or weakness.</p><p>To avoid suffocation risks, keep packaging bags away from infants and young children.</p><p>If the printed film becomes separated from the foam, discontinue product use immediately. Dispose of affected tiles and contact us info@copenhagenkid.com. </p><p>Remember to never leave children unattended while using the product.</p><p>Prioritize safety by disposing of the product at the first indication of damage or weakness.</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "8971ef56-5de9-4c70-8e1f-85f76c45ff6b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care",
+            "content": "<p>Immediately wipe up spills with a dry cloth.</p><p>Clean using mild dish soap and water; ensure the mat is dry before use.</p><p>Avoid harsh detergents to maintain the mat's appearance.</p><p>Be cautious with heavy furniture and sharp objects, as they can damage the mat.</p><p>Prevent water from getting trapped underneath.</p><p>Dry the floor thoroughly before placing the mat.</p><p>Avoid using a power vacuum cleaner.</p><p>If you have sensitive or untreated hardwood floors, please make sure that they can handle a foam product on top. </p><p>Clean the mat before the first use.</p><p>Not suitable for outdoor use; avoid direct sun exposure.</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "d6fce3be-c9f1-4001-a232-949d149af125": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p><strong>Enjoy free shipping on all orders on orders $50+</strong><br/><br/>Returns are accepted within 30 days, provided the item is in the same condition as received, unused/unwashed, with tags, and in its original packaging. </p><p><strong>Warranty</strong></p><p>All of our play mats come with a 1 year manufacture warranty.</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "6cdd0e8c-9b5c-4a78-b486-49e904a458b5",
+        "price",
+        "text_NqzwA6",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "610a0ffc-99bf-42e3-a0c7-6e4bd7f5ee31",
+        "collapsible_tab_CazVBz",
+        "fbd2f3ee-9310-45ed-93a2-5f3241591b16",
+        "8971ef56-5de9-4c70-8e1f-85f76c45ff6b",
+        "d6fce3be-c9f1-4001-a232-949d149af125"
+      ],
+      "custom_css": [
+        ".sidebar-widget.sidebar-widget--none {margin-top: 1.75rem !important;"
+      ],
+      "settings": {
+        "gallery_layout": "two-cols scroll",
+        "gallery_desktop_width": "two-thirds",
+        "gallery_mobile_width": 100,
+        "gallery_aspect_ratio": "1",
+        "gallery_fit": false,
+        "gallery_padding": 0,
+        "gallery_background": "rgba(0,0,0,0)",
+        "gallery_border": "#efefef",
+        "border_radius": 0,
+        "show_thumbnails": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "default_to_first_variant": true,
+        "style": "primary"
+      }
+    },
+    "cf30bc01-5cc9-450e-a1de-9729d1895208": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-1": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "image": "shopify://shop_images/3_fa92c352-7e81-47f2-80cd-bc2f3e91b47f.png",
+            "crop": true,
+            "title": "",
+            "caption": "Scandi Design",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "span"
+          }
+        },
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-2": {
+          "type": "image",
+          "settings": {
+            "icon": "time-limit",
+            "image": "shopify://shop_images/5_12704dfb-4ca4-4f9c-a919-32958b29c541.png",
+            "crop": false,
+            "title": "",
+            "caption": "Expandable",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-3": {
+          "type": "image",
+          "settings": {
+            "icon": "store",
+            "image": "shopify://shop_images/1_1cc3d036-ff37-4150-870c-f604d6e06f51.png",
+            "crop": false,
+            "title": "",
+            "caption": "Wipe Clean",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-4": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/2_067350ab-94b6-47a9-be5f-bfb98b20b94c.png",
+            "crop": true,
+            "title": "",
+            "caption": "Infant Safe",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "bf72be28-e8d7-4170-a17a-e60fc5e17ecc": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/4_f0bb14e4-0427-472a-a12b-d6bc4e49f07b.png",
+            "crop": false,
+            "title": "",
+            "caption": "Durable",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-1",
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-2",
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-3",
+        "template--17002152886514__cf30bc01-5cc9-450e-a1de-9729d1895208-image-4",
+        "bf72be28-e8d7-4170-a17a-e60fc5e17ecc"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "slider",
+        "layout": "grid-5 grid-portable-4 grid-lap-3 grid-palm-2",
+        "border_radius": 0,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "gutter_decrease": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "4e34315d-bd7d-4473-91fa-2edeac1a6829": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17002152886514__4e34315d-bd7d-4473-91fa-2edeac1a6829-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Corina Kaufmann",
+            "author_title": "Verified Customer",
+            "quote": "<p>\"We love these play mats! After a lot of research, we decided on this brand for our new play area for our girls because the design is beautiful and fits our home décor and they fit our space perfectly due its flexibility in configurations. We've had it for over a year - and it is still holding up.\"</p>"
+          }
+        },
+        "template--17002152886514__4e34315d-bd7d-4473-91fa-2edeac1a6829-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Jess Quint",
+            "author_title": "Verified Customer",
+            "quote": "<p>\"Honestly, I'm taken aback by how much I love this mat! I wavered between this and some more affordable options, wondering if its use would be short-lived. However, the promise of non-toxicity convinced me. And now? I'm overjoyed with my choice. It's not just durable and chic, but also incredibly easy to maintain. I can already see it being a mainstay in our home for years.\"</p><p></p>"
+          }
+        },
+        "b6e50134-9687-4634-b8c7-48d4f2081234": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Caro C",
+            "author_title": "Verified Customer",
+            "quote": "<p>\"We absolutely adore these play mats! After exhaustive research and comparison, we chose Copenhagen Kid for our girls' play area. The designs are not only stunning but also harmonize perfectly with our home decor. The mats' adaptability, offering various configurations, ensures they fit our space just right.\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__4e34315d-bd7d-4473-91fa-2edeac1a6829-testimonial-1",
+        "template--17002152886514__4e34315d-bd7d-4473-91fa-2edeac1a6829-testimonial-2",
+        "b6e50134-9687-4634-b8c7-48d4f2081234"
+      ],
+      "custom_css": [
+        ".testimonial__quote {font-size: calc(16px / 16 * var(--base-body-primary-size) + 0px);}"
+      ],
+      "settings": {
+        "heading": "What Parents Say:",
+        "subheading": "Don't take our word",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "slider",
+        "content_alignment": "left",
+        "color_background_main": "#f7f5f5",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 21,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "807797dc-642d-41a3-832d-f9902f5c877b": {
+      "type": "marquee",
+      "blocks": {
+        "template--17002152886514__807797dc-642d-41a3-832d-f9902f5c877b-text-1": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Enjoy free shipping on all orders on all orders above $50"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__807797dc-642d-41a3-832d-f9902f5c877b-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".scrolling-text {font-family: Playfair Display;}"
+      ],
+      "settings": {
+        "scroll_direction": "ltr",
+        "speed": 90,
+        "pause_on_hover": true,
+        "horizontal_space": "regular-x-2",
+        "text_size": "text-size--xlarge",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "#746b6b",
+        "remove_top_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "ad9478fe-e461-4299-9a22-fe242b79c56a": {
+      "type": "rich-text",
+      "blocks": {
+        "d901e640-04c0-4796-a475-c5a54738b324": {
+          "type": "title",
+          "settings": {
+            "title": "How it Started",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "3e38a583-de6a-4e92-89f1-54ba5a4de563": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Born out of the vision of a Danish mom living in Los Angeles, Copenhagen Kid embodies the true essence of Scandinavian design, merging aesthetics with function. <br/><br/>When Tiki welcomed her son into the world in 2018, she scoured the market for a play mat that was both functional and beautifully designed. Finding none that matched her vision of safety, and aesthetics, she drew from her love for Scandinavian interiors and dreamy prints to birth Copenhagen Kid.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "d901e640-04c0-4796-a475-c5a54738b324",
+        "3e38a583-de6a-4e92-89f1-54ba5a4de563"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_ee1fc3f9-77f8-47bf-a0cf-4e48d8101662.png",
+        "image_position": "left",
+        "height": "small",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 24,
+        "color_background_main": "#f7f5f5",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "53e933c9-c72a-486c-b0d8-213c8a48d8ae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17002152886514__53e933c9-c72a-486c-b0d8-213c8a48d8ae-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Safe Playtime",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "template--17002152886514__53e933c9-c72a-486c-b0d8-213c8a48d8ae-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our playmats are compliant with every children’s product regulation in both the USA and the European Union, <em>exceeding </em>the certification requirements in both places.</p><p>Our products are EN71, REACH, CNS 15493, ASTM F963 and CA71 certified.</p><p>No toxic dyes, inks or lead.</p><p>Free from BPAs, PFAS, PVC, formaldehyde and latex. Suitable for 0+ months onwards.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__53e933c9-c72a-486c-b0d8-213c8a48d8ae-title-1",
+        "template--17002152886514__53e933c9-c72a-486c-b0d8-213c8a48d8ae-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0H0A0086.webp",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 24,
+        "color_background_main": "#f7f5f5",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "e285a87a-4afb-4a2c-b933-29a70e2c718e": {
+      "type": "info-tabs",
+      "blocks": {
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Small",
+            "caption": "<p>Consists of 6 high quality foam tiles - finished design measures 6 x 4 ft.</p>",
+            "image": "shopify://shop_images/Regular_91ee1de4-255a-49c5-baaa-76fce3a4ff10.jpg",
+            "icon": "star"
+          }
+        },
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Regular",
+            "caption": "<p>Consists of 12 high quality foam tiles - finished design measures 6 x 8 ft.</p>",
+            "image": "shopify://shop_images/Large_690b6351-7428-4919-bf23-5ce1bd31c93a.jpg",
+            "icon": "star"
+          }
+        },
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-3": {
+          "type": "tab",
+          "settings": {
+            "title": "Large",
+            "caption": "<p>Consists of 18 high quality foam tiles - finished design measures 6 x 12ft.</p>",
+            "image": "shopify://shop_images/X-Large_7cdfcc46-3af7-4794-9e16-675c3d3b3fcd.jpg",
+            "icon": "star"
+          }
+        },
+        "6e3eae62-9409-4f34-892a-1127957ae0eb": {
+          "type": "tab",
+          "settings": {
+            "title": "Playroom",
+            "caption": "<p>Consists of 24 high quality foam tiles - finished design measures 8 x 12ft.</p>",
+            "image": "shopify://shop_images/Playroom_85600702-2eb6-4c58-9812-d11cdf859e0f.jpg",
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-1",
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-2",
+        "template--17002152886514__e285a87a-4afb-4a2c-b933-29a70e2c718e-tab-3",
+        "6e3eae62-9409-4f34-892a-1127957ae0eb"
+      ],
+      "custom_css": [
+        ".section-heading {margin-bottom: -50px; z-index: 25; position: relative;}",
+        "@media screen and (min-width: 478px) {.section-heading {margin-bottom: -100px !important; }}"
+      ],
+      "settings": {
+        "heading": "Size Guide",
+        "subheading": "How big is your space?",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "desktop_layout": "half",
+        "image_position": "left",
+        "image_aspect_ratio": "1",
+        "border_radius": 0,
+        "style": "blank",
+        "autoplay_active": false,
+        "autoplay": 5,
+        "gutter_decrease": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "aa1e83e1-a5df-431b-afc7-77a3ce037d37": {
+      "type": "content-toggles",
+      "blocks": {
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Write some useful information about your shipping details</p><p>Link to your <a href='#'>shipping policy</a>.</p>"
+          }
+        },
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders</p><p>Link to your <a href='#'>offers page</a>.</p>"
+          }
+        },
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Show customers how much time they have for testing your products</p><p>Link to your <a href='#'>returns policy</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-1",
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-2",
+        "template--17002152886514__aa1e83e1-a5df-431b-afc7-77a3ce037d37-text-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "Share your <strong>best</strong> answers",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "Contact form",
+        "style": "outline",
+        "open_first": false,
+        "gutter_decrease": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "product_link": {
+          "type": "product_link",
+          "settings": {
+            "button_label": "View product"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "product_link"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Recommended",
+        "subheading": "You may also <strong>like</strong> these products",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "gutter_decrease": false
+      }
+    },
+    "1701985792fa3543af": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "170198549738c01d82": {
+      "type": "apps",
+      "blocks": {
+        "f994c214-60ac-45ff-a992-d70a0e2bfeb7": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "f994c214-60ac-45ff-a992-d70a0e2bfeb7"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "1701985798ff4f7423": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cf30bc01-5cc9-450e-a1de-9729d1895208",
+    "4e34315d-bd7d-4473-91fa-2edeac1a6829",
+    "807797dc-642d-41a3-832d-f9902f5c877b",
+    "ad9478fe-e461-4299-9a22-fe242b79c56a",
+    "53e933c9-c72a-486c-b0d8-213c8a48d8ae",
+    "e285a87a-4afb-4a2c-b933-29a70e2c718e",
+    "aa1e83e1-a5df-431b-afc7-77a3ce037d37",
+    "product-recommendations",
+    "1701985792fa3543af",
+    "170198549738c01d82",
+    "1701985798ff4f7423"
+  ]
+}

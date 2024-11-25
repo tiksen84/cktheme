@@ -1,0 +1,132 @@
+{% if product.url == '/products/terrazzo-playmat' or product.url == '/products/terrazzo-play-mat-stormy-gray' or product.url == '/products/terrazzo-playmat-msty-blue' or product.url == '/products/strokes-playmat' or product.url == '/products/strokes-play-mat-sandstorm' or product.url == '/products/terrazzo-playmat-in-dusty-rosa' or product.url == '/products/terrazzo-play-mat-dusty-pink' or product.url == '/products/terrazzo-play-mat-sandstorm' or product.url == '/products/waves-play-mat-cloudy' or product.url == '/products/waves-play-mat-teal' or product.url == '/products/waves-play-mat-sand' or product.url == '/products/terrazzo-play-mat-moss'%}
+	{% assign styleLabel = '' %}
+	{% assign colorLabel = '' %}
+	{% if product.url == '/products/strokes-playmat' %}
+		{% assign styleLabel = "Strokes" %}
+  {% elsif product.url == '/products/waves-play-mat-cloudy' or product.url == '/products/waves-play-mat-teal' or product.url == '/products/waves-play-mat-sand' %}
+    {% assign styleLabel = "Waves" %}
+	{% else %}
+		{% assign styleLabel = "Terrazzo" %}
+	{% endif %}
+
+	{% if product.url == '/products/strokes-playmat' %}
+		{% assign colorLabel = 'Strokes Nordic Pale Grey' %}
+      {% elsif product.url == '/products/strokes-play-mat-sandstorm' %}
+		{% assign colorLabel = 'Strokes Sandstorm' %}
+	{% elsif product.url == '/products/terrazzo-playmat' %}
+		{% assign colorLabel = 'Nordic Pale Grey' %}
+    {% elsif product.url == '/products/terrazzo-playmat-in-dusty-rosa' %}
+		{% assign colorLabel = 'Mauve' %}
+    {% elsif product.url == '/products/terrazzo-playmat-msty-blue' %}
+		{% assign colorLabel = 'Dusty Blue' %}
+      {% elsif product.url == '/products/terrazzo-play-mat-sandstorm' %}
+		{% assign colorLabel = 'Sandstorm' %}
+      {% elsif product.url == '/products/terrazzo-play-mat-dusty-pink' %}
+		{% assign colorLabel = 'Dusty Pink' %}
+      {% elsif product.url == '/products/terrazzo-play-mat-moss' %}
+		{% assign colorLabel = 'Moss Green' %}
+      {% elsif product.url == '/products/waves-play-mat-cloudy' %}
+		{% assign colorLabel = 'Cloudy' %}
+      {% elsif product.url == '/products/waves-play-mat-teal' %}
+		{% assign colorLabel = 'Teal' %}
+      {% elsif product.url == '/products/waves-play-mat-sand' %}
+		{% assign colorLabel = 'Sand' %}
+	{% endif %}
+  
+
+  <div class="sd-product-variants">
+    <div class="sd-style-variants">
+		<span class="ProductForm__Label">Style: {{ styleLabel }}</span>
+      	<div class="sd-variants-list">
+          <ul>
+              <li class="{% if product.url == '/products/strokes-playmat' or product.url == '/products/strokes-play-mat-sandstorm'   %}active{% endif %}">
+                <a href="/collections/playmats/products/strokes-playmat" title="Strokes">
+                  <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/strokes-icon.png?v=1704297298" />
+                </a>
+              </li>
+              <li class="{% if product.url == '/products/terrazzo-playmat' or product.url == '/products/terrazzo-playmat-in-dusty-rosa' or product.url == '/products/terrazzo-playmat-msty-blue' or product.url == '/products/terrazzo-play-mat-sandstorm' or product.url == '/products/terrazzo-play-mat-dusty-pink' or product.url == '/products/terrazzo-play-mat-moss' %}active{% endif %}" title="Terrazzo">
+                <a href="/collections/playmats/products/terrazzo-playmat">
+                  <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazo-icon.png?v=1704297092" />
+                </a>
+              </li>
+              <li class="{% if product.url == '/products/waves-play-mat-cloudy' or product.url == '/products/waves-play-mat-teal' or product.url == '/products/waves-play-mat-sand' %}active{% endif %}" title="Waves">
+                <a href="/products/waves-play-mat-cloudy">
+                  <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/waves-icon.png?v=1704297298" />
+                </a>
+              </li>
+          </ul>
+      	</div>
+    </div>
+    <div class="sd-color-variants">
+		<span class="ProductForm__Label">Color: {{ colorLabel }}</span>
+      	<div class="sd-variants-list">
+          <ul>
+              {% if product.url == '/products/strokes-playmat' or product.url == '/products/strokes-play-mat-sandstorm'  %}
+                <li class="{% if product.url == '/products/strokes-playmat' %}active{% endif %}" title="Nordic Pale Grey">
+                    <a href="/collections/playmats/products/strokes-playmat">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/strokers-nordic-paly-grey-icon.jpg" />
+                    </a>
+                </li>
+                <li class="{% if product.url == '/products/strokes-play-mat-sandstorm' %}active{% endif %}" title="Strokes Sandstorm">
+                    <a href="/collections/playmats/products/strokes-play-mat-sandstorm">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/strokes-play-mat-sandstorm-icon.jpg?v=1669817988" />
+                    </a>
+                </li>
+              {% elsif product.url == '/products/waves-play-mat-cloudy' or product.url == '/products/waves-play-mat-teal' or product.url == '/products/waves-play-mat-sand' %}
+                <li class="{% if product.url == '/products/waves-play-mat-cloudy' %}active{% endif %}" title="Cloudy">
+                    <a href="/products/waves-play-mat-cloudy">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/waves-cloudy.png" />
+                    </a>
+                </li>
+                <li class="{% if product.url == '/products/waves-play-mat-teal' %}active{% endif %}" title="Teal">
+                    <a href="/products/waves-play-mat-teal">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/waves-teal.png" />
+                    </a>
+                </li>
+                <li class="{% if product.url == '/products/waves-play-mat-sand' %}active{% endif %}" title="Sand">
+                    <a href="/products/waves-play-mat-sand">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/waves-sand.png" />
+                    </a>
+                </li>
+              {% else %}
+                <li class="{% if product.url == '/products/terrazzo-playmat' %}active{% endif %}" title="Nordic Paly Grey">
+                  <a href="/collections/playmats/products/terrazzo-playmat">
+                    <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazzo-nordic-paly-grey-icon.jpg" />
+                  </a>
+                </li>
+                <li class="{% if product.url == '/products/terrazzo-playmat-in-dusty-rosa' %}active{% endif %}" title="Mauve">
+                  <a href="/collections/playmats/products/terrazzo-playmat-in-dusty-rosa">
+                    <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazoo-mauve-icon.jpg" />
+                  </a>
+                </li>
+                <li class="{% if product.url == '/products/terrazzo-playmat-msty-blue' %}active{% endif %}" title="Dusty Blue">
+                  <a href="/collections/playmats/products/terrazzo-playmat-msty-blue">
+                    <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazzo-dusty-blue-icon.jpg" />
+                  </a>
+                </li>
+                <li class="{% if product.url == '/products/terrazzo-play-mat-sandstorm' %}active{% endif %}" title="Sandstorm">
+                  <a href="/collections/playmats/products/terrazzo-play-mat-sandstorm">
+                    <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazzo-sandstorm-icon.jpg?v=1669813730" />
+                  </a>
+                </li>
+                <li class="{% if product.url == '/products/terrazzo-play-mat-dusty-pink' %}active{% endif %}" title="Dusty Pink">
+                    <a href="/collections/playmats/products/terrazzo-play-mat-dusty-pink">
+                      <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/terrazzo-pink-icon.png?v=1669817426" />
+                    </a>
+                </li>
+               <li class="{% if product.url == '/products/terrazzo-play-mat-moss' %}active{% endif %}" title="Moss Green">
+                      <a href="/collections/playmats/products/terrazzo-play-mat-moss">
+                        <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/moss_green.png?v=1701102686" />
+                      </a>
+                  </li>
+               <li class="{% if product.url == '/products/terrazzo-play-mat-stormy-gray' %}active{% endif %}" title="Stormy Gray">
+                      <a href="/products/terrazzo-play-mat-stormy-gray">
+                        <img src="https://cdn.shopify.com/s/files/1/0514/0149/0632/files/stormygray2.png?v=1715364785" />
+                      </a>
+                  </li>
+              {% endif %}
+          </ul>
+      	</div>
+    </div>
+  </div>
+{% endif %}
